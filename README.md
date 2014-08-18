@@ -1,6 +1,6 @@
 # Olive
 
-Olive is the rails helper​ gem that enables content_for in controllers. 
+Olive is the rails helper​ gem that enables to use content_for in controllers.
 
 ## Installation
 
@@ -19,7 +19,7 @@ Or install it yourself as:
     $ gem install olive
 
 ## Usage
-If you want to set content for view by controller:
+Assume we want to set page title for each page.
 
 In posts_controller.rb:
 
@@ -32,12 +32,11 @@ In posts_controller.rb:
       end
     end
 
-In application.html.haml if you use haml gem:
+If you use haml gem , application.html.haml:
 
     %title= yield :page_title
 
-
-In application.html.erb if you use erb:
+If you use erb, application.html:
 
     <title><%= yield :page_title %></title>
 
