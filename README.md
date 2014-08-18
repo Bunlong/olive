@@ -36,7 +36,7 @@ In application.html.haml if you use haml gem:
     !!!
     %html
       %head
-        %title = yield :page_title
+        %title= yield :page_title
         %meta{content: "width=device-width, initial-scale=1.0", name: "viewport"}
         = stylesheet_link_tag    "application", :media => "all"
         = javascript_include_tag "application"

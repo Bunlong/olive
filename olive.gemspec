@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Olive::VERSION
   spec.authors       = ["Bunlong"]
   spec.email         = ["bunlong.van@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{Olive is the rails helper​ gem that enables content_for in controllers.}
+  spec.description   = %q{Olive is the rails helper​ gem that enables content_for in controllers.}
+  spec.homepage      = "https://github.com/Bunlong/olive"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
