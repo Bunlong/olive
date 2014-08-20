@@ -1,4 +1,4 @@
-# Olive
+# Olive [![Gem Version](https://badge.fury.io/rb/olive.svg)](http://badge.fury.io/rb/olive)
 
 Olive is the rails helper​ gem that enables to use content_for in controllers.
 
