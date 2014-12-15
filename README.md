@@ -7,7 +7,7 @@ Olive is the rails helper​ gem that enables to use content_for in controllers.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'olive'
+gem 'olive', '~> 0.0.1'
 ```
 
 And then execute:
