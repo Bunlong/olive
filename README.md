@@ -1,4 +1,4 @@
-# Olive [![Gem Version](https://badge.fury.io/rb/olive.svg)](http://badge.fury.io/rb/olive)
+# Olive [![Gem Version](https://badge.fury.io/rb/olive.svg)](http://badge.fury.io/rb/olive) [![Gem Total Downloads](https://img.shields.io/gem/dt/olive.svg)](https://rubygems.org/gems/olive)
 
 Olive is the rails helper​ gem that enables to use content_for in controllers.
 
@@ -40,4 +40,8 @@ If you use erb, application.html:
 
     <title><%= yield :page_title %></title>
 
-Say hi to @bunlongvan
+## License
+
+[MIT License](https://github.com/Bunlong/olive/blob/master/LICENSE)
+
+Copyright (c) 2014 - Present, [Bunlong VAN](https://github.com/Bunlong) ( Maintainer )
